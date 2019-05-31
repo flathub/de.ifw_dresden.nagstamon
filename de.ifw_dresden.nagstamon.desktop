@@ -5,5 +5,5 @@ Exec=nagstamon
 Terminal=false
 Type=Application
 Icon=de.ifw_dresden.nagstamon
-Categories=System
+Categories=Network;System;Utility;
 Keywords=nagstamon;monitoring;
