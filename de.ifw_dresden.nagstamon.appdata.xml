@@ -21,7 +21,7 @@
     <url type="bugtracker">https://github.com/HenriWahl/Nagstamon/issues</url>
 	<launchable type="desktop-id">de.ifw_dresden.nagstamon.desktop</launchable>
 	<releases>
-		<release version="3.2.1" date="2019-01-07">
+		<release version="3.4.1" date="2019-01-07">
 			<description>
 				<ul>
 					<li>fixed macOS system tray icon crash</li>
