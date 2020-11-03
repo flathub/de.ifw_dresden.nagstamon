@@ -35,7 +35,7 @@ modules:
     sources:
       - type: archive
         url: https://nagstamon.ifw-dresden.de/files/stable/Nagstamon-3.4.1.tar.gz
-        sha256: 2d26cf4d64a6e27fe55f1c5e5f042af511bcb09876ae16a456aee5800a98adea
+        sha256: 7a9611f40b08269bba4100ab2598ee089c7d0ebc6c4e9d7132689342f71150ec
       - type: file
         path: de.ifw_dresden.nagstamon.appdata.xml
       - type: file
