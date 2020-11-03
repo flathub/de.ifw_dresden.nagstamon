@@ -21,10 +21,16 @@
     <url type="bugtracker">https://github.com/HenriWahl/Nagstamon/issues</url>
 	<launchable type="desktop-id">de.ifw_dresden.nagstamon.desktop</launchable>
 	<releases>
-		<release version="3.4.1" date="2019-01-07">
+		<release version="3.4.1" date="2020-01-26">
 			<description>
 				<ul>
-					<li>fixed macOS system tray icon crash</li>
+                                        <li>Centreon fix for acknowledgement when using autologin key</li>
+					<li>IcingaWeb2 fix support older setups</li>
+                                        <li>fix popup in systray mode on Windows</li>
+                                        <li>improved mode switching</li>
+                                        <li>better support for high resolution displays</li>
+                                        <li>build support for Python 3.8</li>
+                                        <li>improved Windows installer</li>
 				</ul>
 			</description>
 		</release>
