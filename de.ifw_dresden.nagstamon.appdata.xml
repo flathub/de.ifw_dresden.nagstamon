@@ -16,8 +16,8 @@
 			and regular expressions.
 		</p>
 	</description>
-	<url type="homepage">https://nagstamon.ifw-dresden.de/</url>
-	<url type="help">https://nagstamon.ifw-dresden.de/docs/</url>
+	<url type="homepage">https://nagstamon.de/</url>
+	<url type="help">https://nagstamon.de/documentation</url>
     <url type="bugtracker">https://github.com/HenriWahl/Nagstamon/issues</url>
 	<launchable type="desktop-id">de.ifw_dresden.nagstamon.desktop</launchable>
 	<releases>
@@ -38,10 +38,10 @@
 	<developer_name>Henri Wahl</developer_name>
 	<screenshots>
 		<screenshot type="default">
-			<image type="source">https://nagstamon.ifw-dresden.de/wp-content/uploads/teaser_1.png</image>
+			<image type="source">https://nagstamon.de/assets/images/teaser_1.png</image>
 		</screenshot>
 		<screenshot>
-			<image type="source">https://nagstamon.ifw-dresden.de/wp-content/uploads/teaser_2.png</image>
+			<image type="source">https://nagstamon.de/assets/images/teaser_2.png</image>
 		</screenshot>
 	</screenshots>
     <update_contact>cgabrielsu_AT_gmail.com</update_contact>
