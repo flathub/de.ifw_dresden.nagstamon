@@ -21,16 +21,21 @@
     <url type="bugtracker">https://github.com/HenriWahl/Nagstamon/issues</url>
 	<launchable type="desktop-id">de.ifw_dresden.nagstamon.desktop</launchable>
 	<releases>
-		<release version="3.4.1" date="2020-01-26">
+		<release version="3.6.0" date="2021-04-06">
 			<description>
 				<ul>
-                                        <li>Centreon fix for acknowledgement when using autologin key</li>
-					<li>IcingaWeb2 fix support older setups</li>
-                                        <li>fix popup in systray mode on Windows</li>
-                                        <li>improved mode switching</li>
-                                        <li>better support for high resolution displays</li>
-                                        <li>build support for Python 3.8</li>
-                                        <li>improved Windows installer</li>
+          <li>added Prometheus support</li>
+          <li>added SensuGo support</li>
+          <li>added support for SOCKS5 proxy</li>
+          <li>added display of macOS version</li>
+          <li>update for Centreon 20.10</li>
+          <li>fixes for Zabbix</li>
+          <li>fix for IcingaWeb2</li>
+          <li>fix for Nagios/Icinga login with invalid credentials</li>
+          <li>fixes Thruk login</li>
+          <li>fixes context menu bug</li>
+          <li>fix for HighDPI</li>
+          <li>fix for distro detection</li>
 				</ul>
 			</description>
 		</release>
