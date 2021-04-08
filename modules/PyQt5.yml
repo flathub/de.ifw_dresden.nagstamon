@@ -46,8 +46,8 @@ build-options:
         - --enable=QtMultimedia
 sources:
   - type: archive
-    url: https://www.riverbankcomputing.com/static/Downloads/PyQt5/PyQt5-5.15.2.dev2010041344.tar.gz
-    sha256: 25153398487b652b4b0737e0a348dfd9a077c5865cfeb79b02470efa597cfe8e
+    url: https://files.pythonhosted.org/packages/28/6c/640e3f5c734c296a7193079a86842a789edb7988dca39eab44579088a1d1/PyQt5-5.15.2.tar.gz
+    sha256: 372b08dc9321d1201e4690182697c5e7ffb2e0770e6b4a45519025134b12e4fc
   - type: script
     commands:
       - processed=`sed -e 's|prefix|sysroot|' <<< $@`
