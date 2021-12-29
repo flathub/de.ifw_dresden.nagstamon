@@ -5,5 +5,5 @@ build-commands:
     psutil
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/c6/c1/beed5e4eaa1345901b595048fab1c85aee647ea0fc02d9e8bf9aceb81078/psutil-5.6.2.tar.gz
-    sha256: 828e1c3ca6756c54ac00f1427fdac8b12e21b8a068c3bb9b631a1734cada25ed
+    url: https://files.pythonhosted.org/packages/e1/b0/7276de53321c12981717490516b7e612364f2cb372ee8901bd4a66a000d7/psutil-5.8.0.tar.gz
+    sha256: 0c9ccb99ab76025f2f0bbecf341d4656e9c1351db8cc8a03ccd62e318ab4b5c6

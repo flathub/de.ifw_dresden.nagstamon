@@ -5,8 +5,8 @@ build-commands:
     beautifulsoup4
 sources:
   - type: file
-    url: https://files.pythonhosted.org/packages/fb/9e/2e236603b058daa6820193d4d95f4dcfbbbd0d3c709bec8c6ef1b1902501/soupsieve-1.9.1.tar.gz
-    sha256: b20eff5e564529711544066d7dc0f7661df41232ae263619dede5059799cdfca
+    url: https://files.pythonhosted.org/packages/e1/25/a3005eedafb34e1258458e8a4b94900a60a41a2b4e459e0e19631648a2a0/soupsieve-2.3.1.tar.gz
+    sha256: b8d49b1cd4f037c7082a9683dfa1801aa2597fb11c3a1155b7a5b94829b4f1f9
   - type: file
-    url: https://files.pythonhosted.org/packages/80/f2/f6aca7f1b209bb9a7ef069d68813b091c8c3620642b568dac4eb0e507748/beautifulsoup4-4.7.1.tar.gz
-    sha256: 945065979fb8529dd2f37dbb58f00b661bdbcbebf954f93b32fdf5263ef35348
+    url: https://files.pythonhosted.org/packages/a1/69/daeee6d8f22c997e522cdbeb59641c4d31ab120aba0f2c799500f7456b7e/beautifulsoup4-4.10.0.tar.gz
+    sha256: c23ad23c521d818955a4151a67d81580319d4bf548d3d49f4223ae041ff98891

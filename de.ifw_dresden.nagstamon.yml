@@ -35,8 +35,8 @@ modules:
       - install -Dm644 de.ifw_dresden.nagstamon.appdata.xml -t /app/share/metainfo
     sources:
       - type: archive
-        url: https://github.com/HenriWahl/Nagstamon/archive/refs/tags/v3.6.0.tar.gz
-        sha256: 5ec74c50367ba75af417e04c8192b6f598a1db9e55e2db52a8dc540ac707d904
+        url: https://github.com/HenriWahl/Nagstamon/archive/refs/tags/v3.8.0.tar.gz
+        sha256: e8e32479061d36ccaf34b4d5440f998ec73c0983b5290e00e523b34caebe70ed
       - type: file
         path: de.ifw_dresden.nagstamon.appdata.xml
       - type: file
