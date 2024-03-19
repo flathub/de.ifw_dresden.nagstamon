@@ -1,11 +1,9 @@
 app-id: de.ifw_dresden.nagstamon
 runtime: org.kde.Platform
-runtime-version: '6.6'
+runtime-version: '5.15-23.08'
 sdk: org.kde.Sdk
-sdk-extensions:
-  - org.freedesktop.Sdk.Extension.rust-stable
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: "6.6"
+base-version: "5.15-23.08"
 command: nagstamon
 rename-desktop-file: nagstamon.desktop
 rename-icon: nagstamon
@@ -42,8 +40,6 @@ modules:
         dest: src
         commands:
           - autoreconf -si
-
-  - pypi-dependencies.json
   - name: dbus-run-session
     buildsystem: autotools
     cleanup: ["*"]
@@ -65,27 +61,15 @@ modules:
           type: anitya
           project-id: 402
           url-template: https://dbus.freedesktop.org/releases/dbus-python/dbus-python-$version.tar.gz
-  - name: python3-cryptography
-    build-options:
-      append-path: /usr/lib/sdk/rust-stable/bin
-      env:
-        CARGO_HOME: /run/build/python3-cryptography/cargo
-        CARGO_NET_OFFLINE: "true"
-        RUST_BACKTRACE: "1"
-    buildsystem: simple
-    build-commands:
-      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} "cryptography" --no-build-isolation
-    sources:
-      - cargo-sources.json
-      - type: file
-        url: https://files.pythonhosted.org/packages/68/ce/95b0bae7968c65473e1298efb042e10cafc7bafc14d9e4f154008241c91d/cffi-1.16.0.tar.gz
-        sha256: bcb3ef43e58665bbda2fb198698fcae6776483e0c4a631aa5647806c25e02cc0
-      - type: file
-        url: https://files.pythonhosted.org/packages/13/9e/a55763a32d340d7b06d045753c186b690e7d88780cafce5f88cb931536be/cryptography-42.0.5.tar.gz
-        sha256: 6fe07eec95dfd477eb9530aef5bead34fec819b3aaf6c5bd6d20565da607bfe1
-        x-checker-data:
-          type: pypi
-          name: cryptography
+
+  - modules/python3-lxml.yml
+  - modules/python3-beautifulsoup4.yml
+  - modules/python3-keyring.yml
+  - modules/python3-requests.yml
+  - modules/python3-psutil.yml
+  - modules/python3-dateutil.yml
+  - modules/python3-requests-kerberos.yml
+  - modules/python3-cryptography.yml
 
   - name: setup
     buildsystem: simple
