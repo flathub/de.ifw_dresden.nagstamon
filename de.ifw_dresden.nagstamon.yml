@@ -62,6 +62,7 @@ modules:
           project-id: 402
           url-template: https://dbus.freedesktop.org/releases/dbus-python/dbus-python-$version.tar.gz
 
+  - modules/python3-cryptography.yml
   - modules/python3-lxml.yml
   - modules/python3-beautifulsoup4.yml
   - modules/python3-keyring.yml
@@ -69,7 +70,6 @@ modules:
   - modules/python3-psutil.yml
   - modules/python3-dateutil.yml
   - modules/python3-requests-kerberos.yml
-  - modules/python3-cryptography.yml
 
   - name: setup
     buildsystem: simple
