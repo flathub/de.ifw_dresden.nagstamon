@@ -42,12 +42,12 @@ modules:
         sha256: b33b9542222ea8866f6ff2d31c0ad373877c2277db546ca00cc7fdda9cbab1c3
   - name: krb5
     subdir: src
-    config-opts: &krb5-config-opts
+    config-opts:
       - --localstatedir=/var/lib
       - --sbindir=${FLATPAK_DEST}/bin
       - --disable-static
       - --disable-rpath
-    cleanup: &krb5-cleanup
+    cleanup:
       - /bin
       - /share/et
       - /share/examples
@@ -62,11 +62,11 @@ modules:
           - autoreconf -si
   - name: dbus-run-session
     buildsystem: autotools
-    cleanup: ["*"]
+    cleanup: ['*']
     sources:
       - type: archive
-        url: https://gitlab.freedesktop.org/dbus/dbus/-/archive/dbus-1.15.8/dbus-dbus-1.15.8.tar.gz
-        sha256: 3ae23cd28b96beac175eab0798d65c8e21e9fcf57132d840c170aaa7b21cd818
+        url: https://gitlab.freedesktop.org/dbus/dbus/-/archive/dbus-1.14.10/dbus-dbus-1.14.10.tar.gz
+        sha256: 5fedcd6c17fbc62646af224e1aab11a334c463e7e7d89163a670ed24e7ab241c
         x-checker-data:
           type: anitya
           project-id: 5356
