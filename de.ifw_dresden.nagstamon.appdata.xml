@@ -47,7 +47,7 @@
 			<image type="source">https://nagstamon.de/assets/images/teaser_2.png</image>
 		</screenshot>
 	</screenshots>
-    <update_contact>cgabrielsu_AT_gmail.com</update_contact>
+    <update_contact>flathub@nagstamon.de</update_contact>
     <content_rating type="oars-1.0">
         <content_attribute id="violence-cartoon">none</content_attribute>
         <content_attribute id="violence-fantasy">none</content_attribute>
