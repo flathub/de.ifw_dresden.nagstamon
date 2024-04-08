@@ -18,8 +18,12 @@
 	</description>
 	<url type="homepage">https://nagstamon.de/</url>
 	<url type="help">https://nagstamon.de/documentation</url>
-    <url type="bugtracker">https://github.com/HenriWahl/Nagstamon/issues</url>
+    	<url type="bugtracker">https://github.com/HenriWahl/Nagstamon/issues</url>
 	<launchable type="desktop-id">de.ifw_dresden.nagstamon.desktop</launchable>
+	<branding>
+  		<color type="primary" scheme_preference="light">#c9facc</color>
+  		<color type="primary" scheme_preference="dark">#59b65f</color>
+	</branding>
 	<releases>
 		<release version="3.14.0" date="2024-02-24">
 			<description>
