@@ -21,21 +21,19 @@
     <url type="bugtracker">https://github.com/HenriWahl/Nagstamon/issues</url>
 	<launchable type="desktop-id">de.ifw_dresden.nagstamon.desktop</launchable>
 	<releases>
-		<release version="3.6.0" date="2021-04-06">
+		<release version="3.14.0" date="2024-02-24">
 			<description>
 				<ul>
-          <li>added Prometheus support</li>
-          <li>added SensuGo support</li>
-          <li>added support for SOCKS5 proxy</li>
-          <li>added display of macOS version</li>
-          <li>update for Centreon 20.10</li>
-          <li>fixes for Zabbix</li>
-          <li>fix for IcingaWeb2</li>
-          <li>fix for Nagios/Icinga login with invalid credentials</li>
-          <li>fixes Thruk login</li>
-          <li>fixes context menu bug</li>
-          <li>fix for HighDPI</li>
-          <li>fix for distro detection</li>
+ 					<li>improved Wayland support</li> 
+					<li>improved proxy support</li> 
+					<li>added Opsview hashtag filtering and can_change_only option</li> 
+					<li>fixes for Alertmanager</li> 
+					<li>fixes for Centreon</li> 
+					<li>fixes for Icinga</li> 
+					<li>fixes for Opsview</li> 
+					<li>fixes for Zabbix</li> 
+					<li>added support for registering version in Windows</li> 
+					<li>added support for using system certificates in Windows</li> 
 				</ul>
 			</description>
 		</release>
