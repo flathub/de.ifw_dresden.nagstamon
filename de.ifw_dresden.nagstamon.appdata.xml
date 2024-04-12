@@ -4,7 +4,7 @@
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-2.0</project_license>
 	<name>Nagstamon</name>
-	<summary>Nagstamon is a status monitor for the desktop.</summary>
+	<summary>The status monitor for the desktop.</summary>
 	<description>
 		<p>
 			Nagstamon is a status monitor for the desktop. It connects to multiple Nagios, Icinga, Opsview, Centreon,
@@ -18,8 +18,12 @@
 	</description>
 	<url type="homepage">https://nagstamon.de/</url>
 	<url type="help">https://nagstamon.de/documentation</url>
-    <url type="bugtracker">https://github.com/HenriWahl/Nagstamon/issues</url>
+    	<url type="bugtracker">https://github.com/HenriWahl/Nagstamon/issues</url>
 	<launchable type="desktop-id">de.ifw_dresden.nagstamon.desktop</launchable>
+	<branding>
+  		<color type="primary" scheme_preference="light">#c9facc</color>
+  		<color type="primary" scheme_preference="dark">#59b65f</color>
+	</branding>
 	<releases>
 		<release version="3.14.0" date="2024-02-24">
 			<description>
@@ -47,7 +51,7 @@
 			<image type="source">https://nagstamon.de/assets/images/teaser_2.png</image>
 		</screenshot>
 	</screenshots>
-    <update_contact>cgabrielsu_AT_gmail.com</update_contact>
+    <update_contact>flathub@nagstamon.de</update_contact>
     <content_rating type="oars-1.0">
         <content_attribute id="violence-cartoon">none</content_attribute>
         <content_attribute id="violence-fantasy">none</content_attribute>
