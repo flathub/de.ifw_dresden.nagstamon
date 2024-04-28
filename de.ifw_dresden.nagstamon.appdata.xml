@@ -7,6 +7,8 @@
 	<summary>The status monitor for the desktop.</summary>
 	<description>
 		<p>
+			This app is outdated - please use de.nagstamon.nagstamon.
+
 			Nagstamon is a status monitor for the desktop. It connects to multiple Nagios, Icinga, Opsview, Centreon,
 			Op5 Monitor/Ninja, Check_MK Multisite and Thruk monitoring servers. It resides in systray, as a floating
 			statusbar or fullscreen at the desktop showing a brief summary of critical, warning, unknown, unreachable
